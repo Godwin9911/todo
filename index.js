@@ -6,9 +6,7 @@ if (localStorage.getItem("todo") === null){
         'Begin promotional phase',
         'Read an article',
         'Try not to fall asleep',
-        'Watch Sherlock',
-        'Begin QA for the product',
-        'Go for a walk',
+        'Watch Sherlock'
     ];
     //stringify and save preset values to local storage
     localStorage.setItem("todo", JSON.stringify(list));
